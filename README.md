@@ -4,9 +4,9 @@ An end-to-end video restoration process with the-state-of-art deep neural networ
 
 ## Results
 
-- <a href="https://studio.youtube.com/video/UtgXiHRS_nc/edit">Original vs Final</a>
+- <a href="https://www.youtube.com/watch?v=UtgXiHRS_nc">Original vs Final</a>
 - <a href="https://www.youtube.com/watch?v=qqaCTEEdVYA">Final Postprocessing (4K + 50FPS) </a>
-- <a href="https://www.youtube.com/watch?v=qjg2-W09Yp0&list=PLMr0Rb5ao5o1l0Xi0PhYxlXzotCFqz7FZ">Fully Automatic Video Colorization with Self-Regularization and Diversity</a>
+- <a href="https://www.youtube.com/watch?v=qjg2-W09Yp0">Fully Automatic Video Colorization with Self-Regularization and Diversity</a>
 
 ### Resources
 
@@ -39,6 +39,9 @@ An end-to-end video restoration process with the-state-of-art deep neural networ
  </p>
  
 ## Methods
+For reproduction of the results, following procedure was used:
+1 - Analyzing sample video properties and parsing to frames
+2 - Super resolution repository was used in local environment with Keras
 ### Super Resolution:
 
 &nbsp;&nbsp; EDSR, WDSR and SRGAN for single image super-resolution that requires the Keras Tensorflow backend.
