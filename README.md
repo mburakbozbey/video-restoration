@@ -1,6 +1,6 @@
 # Video Restoration with Pretrained DL Models
 
-An end-to-end video restoration project by using the-state-of-art deep neural network models. Only pretrained, open-source resources in Github was used to produce the end results, without doing any hardware-dependent training task.
+An end-to-end video restoration project by using the-state-of-art deep neural network models. Only pretrained and open-source repositories on Github were used to produce the end result, without doing any training task.
 
 In this repository, video restoration methods is reviewed and implemented by using cited repositories and papers with the demonstration of the results. <a href="https://www.youtube.com/watch?v=5yeNO-l7OLc">Sample video</a> was used for the restoration example.
 
@@ -23,7 +23,6 @@ In this repository, video restoration methods is reviewed and implemented by usi
 &nbsp;&nbsp; **CPU**: Intel i7-7700HQ
 
 &nbsp;&nbsp; **RAM**: 16GB
-
 
 ## Sample Video Properties
 
@@ -58,23 +57,17 @@ In this repository, video restoration methods is reviewed and implemented by usi
 
 - <a href="https://natrongithub.github.io" target="_blank">Website</a>
 
- <p align="center"> 
-    <img src="https://github.com/mburakbozbey/video-restoration/blob/master/original.jpg" width="320" height="240" alt="img">
-    <img src="https://github.com/mburakbozbey/video-restoration/blob/master/deoldify.png" width="320" height="240" alt="img">
-    <img src="https://github.com/mburakbozbey/video-restoration/blob/master/corrected4K.png" width="320" height="240" alt="img">
- </p>
-
 &nbsp;&nbsp; Fully Automatic Video Colorization with Self-Regularization and Diversity
 
 - <a href="https://github.com/ChenyangLEI/Fully-Automatic-Video-Colorization-with-Self-Regularization-and-Diversity" target="_blank">Github</a>
 
 - <a href="https://www.youtube.com/watch?v=Y15uv2jnK-4>">Video</a>
-
-
-    <img src="https://github.com/mburakbozbey/video-restoration/blob/master/secondaryColorizer.png" alt="img">
-
  
  **Note:** This model was used only for comparison, DeOldify was primary colorization method.
+ 
+ <p align="center"> 
+     <img src="https://github.com/mburakbozbey/video-restoration/blob/master/secondaryColorizer.png" alt="img">
+ </p>
  
 ## Procedure
 
@@ -96,6 +89,11 @@ Following procedure was followed in this project:
 
 **6** - Finally, resulting frames are used to generated 4K 50fps end result, after the application of color correction & supression by using <a href="https://natrongithub.github.io" target="_blank">Natron</a>.
 
+ <p align="center"> 
+    <img src="https://github.com/mburakbozbey/video-restoration/blob/master/original.jpg" width="320" height="240" alt="img">
+    <img src="https://github.com/mburakbozbey/video-restoration/blob/master/deoldify.png" width="320" height="240" alt="img">
+    <img src="https://github.com/mburakbozbey/video-restoration/blob/master/corrected4K.png" width="320" height="240" alt="img">
+ </p>
 
  
 ## About Original Movie
@@ -109,11 +107,11 @@ Following procedure was followed in this project:
 
 ## Citation
 
-Bao, W., Lai, W.S., Ma, C., Zhang, X., Gao, Z., & Yang, M.H. (2019). Depth-Aware Video Frame Interpolation. In IEEE Conference on Computer Vision and Pattern Recognition.
+**1 -** Bao, W., Lai, W.S., Ma, C., Zhang, X., Gao, Z., & Yang, M.H. (2019). Depth-Aware Video Frame Interpolation. In IEEE Conference on Computer Vision and Pattern Recognition.
 
-Bao, W., Lai, Zhang, X., Gao, Z., & Yang, M.H. (2018). MEMC-Net: Motion Estimation and Motion Compensation Driven Neural Network for Video Interpolation and EnhancementIEEE Transactions on Pattern Analysis and Machine Intelligence.
+**2 -** Bao, W., Lai, Zhang, X., Gao, Z., & Yang, M.H. (2018). MEMC-Net: Motion Estimation and Motion Compensation Driven Neural Network for Video Interpolation and EnhancementIEEE Transactions on Pattern Analysis and Machine Intelligence.
 
-Lei, C., & Chen, Q. (2019). Fully Automatic Video Colorization With Self-Regularization and Diversity. In The IEEE Conference on Computer Vision and Pattern Recognition (CVPR).
+**3 -** Lei, C., & Chen, Q. (2019). Fully Automatic Video Colorization With Self-Regularization and Diversity. In The IEEE Conference on Computer Vision and Pattern Recognition (CVPR).
 
 ## Disclaimer (EN/TR)
 
