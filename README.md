@@ -2,6 +2,12 @@
 
 An end-to-end video restoration process with the-state-of-art deep neural network models was tested on <a href="https://www.youtube.com/watch?v=5yeNO-l7OLc">sample video</a>
 
+## Results
+
+- <a href="https://studio.youtube.com/video/UtgXiHRS_nc/edit">Original vs Final</a>
+- <a href="https://www.youtube.com/watch?v=qqaCTEEdVYA">Final Postprocessing (4K + 50FPS) </a>
+- <a href="https://www.youtube.com/watch?v=qjg2-W09Yp0&list=PLMr0Rb5ao5o1l0Xi0PhYxlXzotCFqz7FZ">Fully Automatic Video Colorization with Self-Regularization and Diversity</a>
+
 ### Resources
 
 - Google Colab
@@ -74,14 +80,6 @@ An end-to-end video restoration process with the-state-of-art deep neural networ
  
  ***Note:*** This model was used only for comparison, DeOldify was primary colorization method.
  
-
- 
-## Results
-
-- <a href="https://www.youtube.com/watch?v=5yeNO-l7OLc">Original Video</a>
-- Final Postprocessing (4K + 50FPS) ( will be added soon)
-- Other Color Videos ( will be added soon)
-
 ### About Original Movie
 
 - ***Title:*** Efkarlı Sosyetede
