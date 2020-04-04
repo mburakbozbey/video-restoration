@@ -1,17 +1,15 @@
 # Video Restoration with Pretrained DL Models
 
-An end-to-end video restoration process with the-state-of-art deep neural network models was tested on a sample video from BW movie that was made in 1968.
-
-https://www.youtube.com/watch?v=5yeNO-l7OLc
+An end-to-end video restoration process with the-state-of-art deep neural network models was tested on <a href="https://www.youtube.com/watch?v=5yeNO-l7OLc">sample video</a>
 
 ## Sample Video Properties
 
-***Length*** : 00:00:49
-***Width*** : 640
-***Height*** : 480
-***Frame per second***: 25
-***Number of frames***: 2726
-***Format*** : .mp4
+- ***Length*** : 00:00:49
+- ***Width*** : 640
+- ***Height*** : 480
+- ***Frame per second***: 25
+- ***Number of frames***: 2726
+- ***Format*** : .mp4
 
 ## Pipeline
 
@@ -48,6 +46,15 @@ Github: https://github.com/krasserm/super-resolution/tree/previous
 - <a href="https://www.youtube.com/watch?v=5yeNO-l7OLc">Original Video</a>
 - Final Postprocessing (4K + 50FPS) ( will be added soon)
 - Other Color Videos ( will be added soon)
+
+### About Original Movie
+
+- ***Title:*** Efkarlı Sosyetede
+- ***Director:*** Türker İnanoğlu
+- ***Cast:*** Sadri Alışık, Filiz Akın
+- ***Production Company:*** Erler Film
+- ***Producer:*** Türker İnanoğlu
+- ***Year:*** 1968
 
 ## References
 
