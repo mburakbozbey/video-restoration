@@ -46,25 +46,35 @@ An end-to-end video restoration process with the-state-of-art deep neural networ
 
 - <a href="https://sites.google.com/view/wenbobao/dain" target="_blank">Website</a>
 
-### Colorization
+### Colorization & Color correction 
 
-&nbsp;&nbsp; DeOldify: A Deep Learning based project for colorizing and restoring old images (and video!)
+&nbsp;&nbsp; DeOldify: A Deep Learning based project for colorizing and restoring old images and videos
 
 - <a href="https://github.com/jantic/DeOldify" target="_blank">Github</a>
+
+&nbsp;&nbsp; Natron, an open-source node-based compositing software application
+
+- <a href="https://natrongithub.github.io" target="_blank">Website</a>
+
+ <p align="center"> 
+    <img src="https://github.com/mburakbozbey/video-restoration/blob/master/deoldify.png" width="320" height="240" alt="img">
+    <img src="https://github.com/mburakbozbey/video-restoration/blob/master/corrected4K.png" width="320" height="240" alt="img">
+ </p>
 
 &nbsp;&nbsp; Fully Automatic Video Colorization with Self-Regularization and Diversity
 
 - <a href="https://github.com/ChenyangLEI/Fully-Automatic-Video-Colorization-with-Self-Regularization-and-Diversity" target="_blank">Github</a>
 
 - <a href="https://www.youtube.com/watch?v=Y15uv2jnK-4>">Video</a>
+
+
+    <img src="https://github.com/mburakbozbey/video-restoration/blob/master/secondaryColorizer.png" alt="img">
+
  
  ***Note:*** This model was used only for comparison, DeOldify was primary colorization method.
  
-### Color correction 
 
-&nbsp;&nbsp; Natron, an open-source node-based compositing software application
-- <a href="https://natrongithub.github.io" target="_blank">Website</a>
-
+ 
 ## Results
 
 - <a href="https://www.youtube.com/watch?v=5yeNO-l7OLc">Original Video</a>
