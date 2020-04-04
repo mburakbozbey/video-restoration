@@ -8,7 +8,7 @@ An end-to-end video restoration process with the-state-of-art deep neural networ
 - <a href="https://www.youtube.com/watch?v=qqaCTEEdVYA">Final Postprocessing (4K + 50FPS) </a>
 - <a href="https://www.youtube.com/watch?v=qjg2-W09Yp0">Fully Automatic Video Colorization with Self-Regularization and Diversity</a>
 
-### Resources
+### Environments
 
 - Google Colab
 - Anaconda
@@ -32,16 +32,7 @@ An end-to-end video restoration process with the-state-of-art deep neural networ
 - **Number of frames**: 2726
 - **Format** : .mp4
 
-## Diagram
-
- <p align="center"> 
-    <img src="https://github.com/mburakbozbey/video-restoration/blob/master/diagram1.png" alt="img">
- </p>
- 
 ## Methods
-For reproduction of the results, following procedure was used:
-1 - Analyzing sample video properties and parsing to frames
-2 - Super resolution repository was used in local environment with Keras
 ### Super Resolution:
 
 &nbsp;&nbsp; EDSR, WDSR and SRGAN for single image super-resolution that requires the Keras Tensorflow backend.
@@ -82,6 +73,28 @@ For reproduction of the results, following procedure was used:
 
  
  ***Note:*** This model was used only for comparison, DeOldify was primary colorization method.
+ 
+### Procedure
+
+For reproduction of the results, following procedure was used:
+
+**1** - Analyzing sample video properties and parsing to frames
+
+**2** - Original frames are colorized with DeOldify to improve results of the other GAN models as a preprocessing step.
+
+**3** - Super resolution repository was used in local environment with Keras, 640x480 resolution was increased by factor 4 to 2560x1920.
+
+**4** - Due to memory limitations, 2560x1920 frames were resized to 1920x1080 for video frame interpolation on <a href="https://colab.research.google.com/drive/1gzsfDV_MIdehr7Y8ZzWjTuW-mMZRP4Vy" target="_blank">Google Colab</a> that is prepared <a href="https://github.com/styler00dollar" target="_blank">styler00dollar</a>'s by using - <a href="https://github.com/baowenbo/DAIN" target="_blank">Depth-Aware Video Frame Interpolation</a>. Please note that a P100 GPU in Colab is needed to allocate memory for 1080p videos.
+
+**5** - After frame interpolation with 1920x1080 images,  resulting frames downsized to 720x540 resolution for Super Resolution with scale 4 to achive 4K specs with horizontal padding (3840x2160)
+
+**6** - Finally, resulting frames are used for the output video, after the application of color correction & supression by using <a href="https://natrongithub.github.io" target="_blank">Natron</a>.
+
+## Diagram
+
+ <p align="center"> 
+    <img src="https://github.com/mburakbozbey/video-restoration/blob/master/diagram1.png" alt="img">
+ </p>
  
 ### About Original Movie
 
