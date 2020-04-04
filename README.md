@@ -1,6 +1,8 @@
 # Video Restoration with Pretrained DL Models
 
-An end-to-end video restoration process with the-state-of-art deep neural network models was tested on <a href="https://www.youtube.com/watch?v=5yeNO-l7OLc">sample video</a>
+An end-to-end video restoration project with the-state-of-art deep neural network models was tested on <a href="https://www.youtube.com/watch?v=5yeNO-l7OLc">sample video</a>. Only pretrained, open-source resources in Github was used to produce the end results, without doing any training task.
+
+In this repository, the procedure for video restoration methods is reviewed and implemented by using cited repositories and papers with the demonstration of the results.
 
 ## Results
 
@@ -12,7 +14,7 @@ An end-to-end video restoration process with the-state-of-art deep neural networ
 
 - Google Colab
 - Anaconda
-- Local
+- Local:
 
 &nbsp;&nbsp; **OS**: Windows 10 Home 64-bit
 
@@ -76,7 +78,7 @@ An end-to-end video restoration process with the-state-of-art deep neural networ
  
 ### Procedure
 
-For reproduction of the results, following procedure was used:
+Following procedure was in this project:
 
 **1** - Analyzing sample video properties and parsing to frames
 
@@ -84,7 +86,7 @@ For reproduction of the results, following procedure was used:
 
 **3** - Super resolution repository was used in local environment with Keras, 640x480 resolution was increased by factor 4 to 2560x1920.
 
-**4** - Due to memory limitations, 2560x1920 frames were resized to 1920x1080 for video frame interpolation on <a href="https://colab.research.google.com/drive/1gzsfDV_MIdehr7Y8ZzWjTuW-mMZRP4Vy" target="_blank">Google Colab</a> that is prepared <a href="https://github.com/styler00dollar" target="_blank">styler00dollar</a>'s by using - <a href="https://github.com/baowenbo/DAIN" target="_blank">Depth-Aware Video Frame Interpolation</a>. Please note that a P100 GPU in Colab is needed to allocate memory for 1080p videos.
+**4** - Due to memory limitations, 2560x1920 frames were resized to 1920x1080 for video frame interpolation on <a href="https://colab.research.google.com/drive/1gzsfDV_MIdehr7Y8ZzWjTuW-mMZRP4Vy" target="_blank">Google Colab</a> that is prepared by <a href="https://github.com/styler00dollar" target="_blank">styler00dollar</a> which uses <a href="https://github.com/baowenbo/DAIN" target="_blank">Depth-Aware Video Frame Interpolation</a>. Please note that a P100 GPU in Colab is needed to allocate memory for 1080p videos.
 
 **5** - After frame interpolation with 1920x1080 images,  resulting frames downsized to 720x540 resolution for Super Resolution with scale 4 to achive 4K specs with horizontal padding (3840x2160)
 
@@ -105,7 +107,7 @@ For reproduction of the results, following procedure was used:
 - ***Producer:*** Türker İnanoğlu
 - ***Year:*** 1968
 
-## References
+## Citation
 
 Bao, W., Lai, W.S., Ma, C., Zhang, X., Gao, Z., & Yang, M.H. (2019). Depth-Aware Video Frame Interpolation. In IEEE Conference on Computer Vision and Pattern Recognition.
 
