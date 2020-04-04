@@ -19,7 +19,7 @@ An end-to-end video restoration process with the-state-of-art deep neural networ
 
 ## Sample Video Properties
 
-- **Length** : 00:00:49
+- **Length** : 00:01:49
 - **Width** : 640
 - **Height** : 480
 - **Frame per second**: 25
