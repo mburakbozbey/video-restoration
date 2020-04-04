@@ -6,7 +6,7 @@ An end-to-end video restoration process with the-state-of-art deep neural networ
 
 - Google Colab
 - Anaconda
-- Local:
+- Local
 
 &nbsp;&nbsp; **OS**: Windows 10 Home 64-bit
 
