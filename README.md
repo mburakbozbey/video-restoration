@@ -29,34 +29,39 @@ An end-to-end video restoration process with the-state-of-art deep neural networ
 ## Diagram
 
  <p align="center"> 
-    <img src="https://github.com/mburakbozbey/video-restoration/blob/master/diagram.png" alt="img">
+    <img src="https://github.com/mburakbozbey/video-restoration/blob/master/diagram1.png" alt="img">
  </p>
  
 ## Methods
 ### Super Resolution:
 
-- EDSR, WDSR and SRGAN for single image super-resolution that requires the Keras Tensorflow backend.
-Github: https://github.com/krasserm/super-resolution/tree/previous
+&nbsp;&nbsp; EDSR, WDSR and SRGAN for single image super-resolution that requires the Keras Tensorflow backend.
+
+- <a href="https://github.com/krasserm/super-resolution/tree/previous" target="_blank">Github</a>
 
 ### Video frame interpolation
 
-- Depth-Aware Video Frame Interpolation (CVPR 2019): <a href="https://github.com/baowenbo/DAIN" target="_blank">Github</a>, <a href="https://sites.google.com/view/wenbobao/dain" target="_blank">Website</a>
+&nbsp;&nbsp; Depth-Aware Video Frame Interpolation (CVPR 2019)
+- <a href="https://github.com/baowenbo/DAIN" target="_blank">Github</a> 
+
+- <a href="https://sites.google.com/view/wenbobao/dain" target="_blank">Website</a>
 
 ### Colorization
 
-- DeOldify: A Deep Learning based project for colorizing and restoring old images (and video!)
+&nbsp;&nbsp; DeOldify: A Deep Learning based project for colorizing and restoring old images (and video!)
 
-<a href="https://github.com/jantic/DeOldify" target="_blank">Github</a>
+- <a href="https://github.com/jantic/DeOldify" target="_blank">Github</a>
 
-- Fully Automatic Video Colorization with Self-Regularization and Diversity
+&nbsp;&nbsp; Fully Automatic Video Colorization with Self-Regularization and Diversity
 
-<a href="https://github.com/ChenyangLEI/Fully-Automatic-Video-Colorization-with-Self-Regularization-and-Diversity" target="_blank">Github</a>
-<a href="https://www.youtube.com/watch?v=Y15uv2jnK-4>">Video</a>
+- <a href="https://github.com/ChenyangLEI/Fully-Automatic-Video-Colorization-with-Self-Regularization-and-Diversity" target="_blank">Github</a>
+
+- <a href="https://www.youtube.com/watch?v=Y15uv2jnK-4>">Video</a>
  
  ***Note:*** This model was used only for comparison, DeOldify was primary colorization method.
  
 - Color correction: Natron, an open-source node-based compositing software application
-<a href="https://natrongithub.github.io" target="_blank">Website</a>
+- <a href="https://natrongithub.github.io" target="_blank">Website</a>
 
 ## Results
 
