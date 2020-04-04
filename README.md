@@ -92,4 +92,4 @@ Lei, C., & Chen, Q. (2019). Fully Automatic Video Colorization With Self-Regular
 
 - This repository is prepared for the review of recent the state-of-art methods that are available for video restoration on Github with nonprofit educational purposes only. The sample video was used to reproduce the whole pipeline while respecting the copyright holders in terms of fair use.   
 
-- Yapılan çalışma Github üzerinde yalnızca kar amacı gütmeyen eğitim amaçları göz edilerek video restorasyonu için mevcut olan en son teknolojik yöntemlerin gözden geçirilmesi için hazırlanmıştır. Kullanılan eser, adil kullanım kapsamında telif hakkı sahiplerine saygı gösterilerek kullanılmıştır.
+- Yapılan çalışma Github üzerinde yalnızca kar amacı gütmeyen eğitim amaçları göz edilerek video restorasyonu için mevcut olan en son teknolojik yöntemlerin gözden geçirilmesi için hazırlanmıştır. Kullanılan eser, adil kullanım kapsamında telif hakkı sahiplerine saygı gösterilerek işlenmiştir.
