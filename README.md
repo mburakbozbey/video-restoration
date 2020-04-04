@@ -4,7 +4,9 @@ An end-to-end video restoration process with the-state-of-art deep neural networ
 
 ### Resources
 
-- Hardware Specs:
+- Google Colab
+- Anaconda
+- Local:
 
 **OS**: Windows 10 Home 64-bit
 
@@ -14,8 +16,7 @@ An end-to-end video restoration process with the-state-of-art deep neural networ
 
 **RAM**: 16GB
 
-- Google Colab
-- Anaconda
+
 ## Sample Video Properties
 
 - ***Length*** : 00:00:49
@@ -25,10 +26,12 @@ An end-to-end video restoration process with the-state-of-art deep neural networ
 - ***Number of frames***: 2726
 - ***Format*** : .mp4
 
-## Pipeline
+## Diagram
 
-<img here>
-
+ <p align="center"> 
+    <img src="https://github.com/mburakbozbey/video-restoration/blob/master/diagram.png" alt="img">
+ </p>
+ 
 ## Methods
 ### Super Resolution:
 
