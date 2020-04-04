@@ -60,7 +60,9 @@ An end-to-end video restoration process with the-state-of-art deep neural networ
  
  ***Note:*** This model was used only for comparison, DeOldify was primary colorization method.
  
-- Color correction: Natron, an open-source node-based compositing software application
+### Color correction 
+
+&nbsp;&nbsp; Natron, an open-source node-based compositing software application
 - <a href="https://natrongithub.github.io" target="_blank">Website</a>
 
 ## Results
