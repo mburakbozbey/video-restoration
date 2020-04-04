@@ -1,12 +1,12 @@
 # Video Restoration with Pretrained DL Models
 
-An end-to-end video restoration project with the-state-of-art deep neural network models was tested on <a href="https://www.youtube.com/watch?v=5yeNO-l7OLc">sample video</a>. Only pretrained, open-source resources in Github was used to produce the end results, without doing any training task.
+An end-to-end video restoration project by using the-state-of-art deep neural network models. Only pretrained, open-source resources in Github was used to produce the end results, without doing any hardware-dependent training task.
 
-In this repository, the procedure for video restoration methods is reviewed and implemented by using cited repositories and papers with the demonstration of the results.
+In this repository, video restoration methods is reviewed and implemented by using cited repositories and papers with the demonstration of the results. <a href="https://www.youtube.com/watch?v=5yeNO-l7OLc">Sample video</a> was used for the restoration example.
 
 ## Results
 
-- <a href="https://www.youtube.com/watch?v=UtgXiHRS_nc">Original vs Final</a>
+- <a href="https://www.youtube.com/watch?v=UtgXiHRS_nc">Final vs Original</a>
 - <a href="https://www.youtube.com/watch?v=qqaCTEEdVYA">Final Postprocessing (4K + 50FPS) </a>
 - <a href="https://www.youtube.com/watch?v=qjg2-W09Yp0">Fully Automatic Video Colorization with Self-Regularization and Diversity</a>
 
@@ -34,7 +34,7 @@ In this repository, the procedure for video restoration methods is reviewed and 
 - **Number of frames**: 2726
 - **Format** : .mp4
 
-## Methods
+## Resources
 ### Super Resolution:
 
 &nbsp;&nbsp; EDSR, WDSR and SRGAN for single image super-resolution that requires the Keras Tensorflow backend.
@@ -74,31 +74,31 @@ In this repository, the procedure for video restoration methods is reviewed and 
     <img src="https://github.com/mburakbozbey/video-restoration/blob/master/secondaryColorizer.png" alt="img">
 
  
- ***Note:*** This model was used only for comparison, DeOldify was primary colorization method.
+ **Note:** This model was used only for comparison, DeOldify was primary colorization method.
  
-### Procedure
-
-Following procedure was in this project:
-
-**1** - Analyzing sample video properties and parsing to frames
-
-**2** - Original frames are colorized with DeOldify to improve results of the other GAN models as a preprocessing step.
-
-**3** - Super resolution repository was used in local environment with Keras, 640x480 resolution was increased by factor 4 to 2560x1920.
-
-**4** - Due to memory limitations, 2560x1920 frames were resized to 1920x1080 for video frame interpolation on <a href="https://colab.research.google.com/drive/1gzsfDV_MIdehr7Y8ZzWjTuW-mMZRP4Vy" target="_blank">Google Colab</a> that is prepared by <a href="https://github.com/styler00dollar" target="_blank">styler00dollar</a> which uses <a href="https://github.com/baowenbo/DAIN" target="_blank">Depth-Aware Video Frame Interpolation</a>. Please note that a P100 GPU in Colab is needed to allocate memory for 1080p videos.
-
-**5** - After frame interpolation with 1920x1080 images,  resulting frames downsized to 720x540 resolution for Super Resolution with scale 4 to achive 4K specs with horizontal padding (3840x2160)
-
-**6** - Finally, resulting frames are used for the output video, after the application of color correction & supression by using <a href="https://natrongithub.github.io" target="_blank">Natron</a>.
-
-## Diagram
+## Procedure
 
  <p align="center"> 
     <img src="https://github.com/mburakbozbey/video-restoration/blob/master/diagram1.png" alt="img">
  </p>
  
-### About Original Movie
+Following procedure was followed in this project:
+
+**1** - Analysis of the sample video properties for the objective and parsing it to frames
+
+**2** - Original frames are colorized with DeOldify to improve results of the other GAN models as a preprocessing step.
+
+**3** - <a href="https://github.com/krasserm/super-resolution/tree/previous" target="_blank">Super resolution</a> was used in local environment with Keras, 640x480 resolution was increased by factor 4 to 2560x1920.
+
+**4** - Due to memory limitations, 2560x1920 frames were resized to 1920x1080 for video frame interpolation on <a href="https://colab.research.google.com/drive/1gzsfDV_MIdehr7Y8ZzWjTuW-mMZRP4Vy" target="_blank">Google Colab</a> that is prepared by <a href="https://github.com/styler00dollar" target="_blank">styler00dollar</a> which uses <a href="https://github.com/baowenbo/DAIN" target="_blank">Depth-Aware Video Frame Interpolation</a>. Please note that a P100 GPU in Colab is needed to allocate memory for 1080p videos.
+
+**5** - After frame interpolation with 1920x1080 images,  resulting frames were downsized to 720x540 resolution for Super Resolution with scale 4 to achieve 4K specs(3840x2160) with horizontal padding(480x2160 + 2880x2160 + 480x2160). 
+
+**6** - Finally, resulting frames are used to generated 4K 50fps end result, after the application of color correction & supression by using <a href="https://natrongithub.github.io" target="_blank">Natron</a>.
+
+
+ 
+## About Original Movie
 
 - ***Title:*** Efkarlı Sosyetede
 - ***Director:*** Türker İnanoğlu
