@@ -8,23 +8,23 @@ An end-to-end video restoration process with the-state-of-art deep neural networ
 - Anaconda
 - Local:
 
-**OS**: Windows 10 Home 64-bit
+&nbsp;&nbsp; **OS**: Windows 10 Home 64-bit
 
-**GPU**: GeForce GTX 1060 Max-Q 
+&nbsp;&nbsp; **GPU**: GeForce GTX 1060 Max-Q 
 
-**CPU**: Intel i7-7700HQ
+&nbsp;&nbsp; **CPU**: Intel i7-7700HQ
 
-**RAM**: 16GB
+&nbsp;&nbsp; **RAM**: 16GB
 
 
 ## Sample Video Properties
 
-- ***Length*** : 00:00:49
-- ***Width*** : 640
-- ***Height*** : 480
-- ***Frame per second***: 25
-- ***Number of frames***: 2726
-- ***Format*** : .mp4
+- **Length** : 00:00:49
+- **Width** : 640
+- **Height** : 480
+- **Frame per second**: 25
+- **Number of frames**: 2726
+- **Format** : .mp4
 
 ## Diagram
 
