@@ -2,6 +2,20 @@
 
 An end-to-end video restoration process with the-state-of-art deep neural network models was tested on <a href="https://www.youtube.com/watch?v=5yeNO-l7OLc">sample video</a>
 
+### Resources
+
+- Hardware Specs:
+
+**OS**: Windows 10 Home 64-bit
+
+**GPU**: GeForce GTX 1060 Max-Q 
+
+**CPU**: Intel i7-7700HQ
+
+**RAM**: 16GB
+
+- Google Colab
+- Anaconda
 ## Sample Video Properties
 
 - ***Length*** : 00:00:49
