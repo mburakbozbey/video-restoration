@@ -57,6 +57,7 @@ An end-to-end video restoration process with the-state-of-art deep neural networ
 - <a href="https://natrongithub.github.io" target="_blank">Website</a>
 
  <p align="center"> 
+    <img src="https://github.com/mburakbozbey/video-restoration/blob/master/original.jpg" width="320" height="240" alt="img">
     <img src="https://github.com/mburakbozbey/video-restoration/blob/master/deoldify.png" width="320" height="240" alt="img">
     <img src="https://github.com/mburakbozbey/video-restoration/blob/master/corrected4K.png" width="320" height="240" alt="img">
  </p>
