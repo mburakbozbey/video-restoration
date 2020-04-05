@@ -2,7 +2,7 @@
 
 An end-to-end video restoration project by using the-state-of-art deep neural network models. Only pretrained and open-source repositories on Github were used to produce the end result, without doing any training task.
 
-In this repository, video restoration methods is reviewed and implemented by using cited repositories and papers with the demonstration of the results. <a href="https://www.youtube.com/watch?v=5yeNO-l7OLc">Sample video</a> was used for the restoration example.
+In this repository, video restoration methods are reviewed and implemented by using cited repositories and papers with the demonstration of the results. <a href="https://www.youtube.com/watch?v=5yeNO-l7OLc">Sample video</a> was used for the restoration example.
 
 ## Results
 
